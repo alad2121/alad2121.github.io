@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    margin:0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: lightblue;
+    margin-top: "10px";
+}
+
+nav p, nav a {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #736B92;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    background-color: lightgreen;
+    border: 1px solid brown;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: lightblue;
+
+}
+
+/* Splash Section */
+.splash {
+
+}
+
+.splash h1 {
+    color:"#ff5733";
+    font-family: "Funnel Sans", serif;
+}
+
+.splash img {
+    border: 2px solid lightgreen;
+    border-radius: 100%;
+}
+
+.splash p {
+    color: #736B92;
+}
+
+/* Horizontal Rules */
+hr {
+    border-radius: 10%;
+    border: 1px solid blue;
+}
+
+/* Sections */
+section {
+
+}
+
+/* Section Headings */
+section h2 {
+    color:#736B92;
+    font-family: "Funnel Sans", serif;
+}
+
+/* Paragraph Styles */
+section p {
+    text-decoration: underline;
+    color: #736B92;
+}
+
+/* link styles */
+section a {
+    color: #736B92;
+    text-decoration: none;
+    font-size: 1rem;
+}
+section a:hover {
+    color: #ff5733;
+}
+
+/* List Styles */
+ul {
+    color:#736B92;
+    list-style-type: square;
+}
+
+dl {
+    display: grid;
+}
+dl dt{
+
+}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid #736B92;
+    background-color: lightblue;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+.card h3 {}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+   
+}
+
+form input, form textarea {
+    height: 20px;
+    max-width: 200px;
+}
+
+form input:focus, form textarea:focus {
+    border: 3px solid #016FB9;
+    outline: none;
+}
+
+form button {
+    padding: 5px;
+    color: #016FB9;
+    border: 2px solid #016FB9;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form button:hover {
+    color: white;
+    background-color: #016FB9;
+}
